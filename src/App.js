@@ -26,7 +26,7 @@ function App() {
 }
 
 function Sbutton({ text, svg, url }) {
-  return <button className="Sbutton" onClick={e => window.location.href = url}>
+  return <button className="Sbutton" onClick={e => window.open(url)}>
     {svg}
     <span>{text}</span>
   </button>
