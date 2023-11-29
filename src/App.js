@@ -37,9 +37,11 @@ function App() {
 }
 
 function Sbutton({ svg, url }) {
-  return <button className="Sbutton" onClick={e => window.open(url)}>
-    {svg}
-  </button>
+  return <a href={url} target="_blank" rel="noreferrer">
+    <button className="Sbutton" >
+      {svg}
+    </button>
+  </a>
 }
 
 export default App;
