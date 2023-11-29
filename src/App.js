@@ -22,8 +22,11 @@ function App() {
           <h1 onClick={e=>{
             setQrMode(a=>!a);
           }}>김강현 (kimgh06)</h1>
-          <p>프론트엔드 전공<br />
-            Majored in Frontend Development</p>
+          <p>
+            kkh061101@naver.com<br/>
+            프론트엔드 전공<br />
+            Majored in Frontend Development<br/>
+            </p>
         </div>
         {!qrMode?<div className="buttons">
           <Sbutton url={"https://kimgh06.notion.site/79e7e230e87347d8b7d9af9ddff41656"}
