@@ -24,7 +24,6 @@ function App() {
           }}>김강현 (kimgh06)</h1>
           <p>
             kkh061101@naver.com<br/>
-            프론트엔드 전공<br />
             Majored in Frontend Development<br/>
             </p>
         </div>
