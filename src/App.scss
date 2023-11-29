@@ -29,32 +29,39 @@ body {
         color: rgb(156, 156, 156);
       }
     }
+
+    .buttons {
+      width: 275px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+
+      .Sbutton {
+        margin-bottom: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(143, 143, 143);
+        color: white;
+        width: 10em;
+        height: 3.3em;
+        border-radius: 10px;
+        cursor: pointer;
+
+        &:active {
+          background-color: rgb(156, 156, 156);
+        }
+
+        svg {
+          width: 30px;
+        }
+
+        span {
+          margin-left: 10px;
+        }
+      }
+    }
   }
 
-  .Sbutton {
-    display: flex;
-    align-items: center;
-    background-color: rgb(143, 143, 143);
-    color: white;
-    width: 20em;
-    height: 3em;
-    border-radius: 10px;
-    cursor: pointer;
-
-    &:active {
-      background-color: rgb(156, 156, 156);
-    }
-
-    &+.Sbutton {
-      margin-top: 5px;
-    }
-
-    svg {
-      width: 35px;
-    }
-
-    span {
-      margin-left: 10px;
-    }
-  }
 }
